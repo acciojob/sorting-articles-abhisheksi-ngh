@@ -1,3 +1,20 @@
-.square-bullets{
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+ul#band{
     list-style-type: square;
+    padding: 20px 60px;
+    width: 400px;
+}
+ul#band li{
+    padding: 10px 0;
+}
+ul#band li:last-child{
+    border-bottom: none;
 }
